@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/RentHouseV1.0.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+</head>
+<body>
+	<div class="top">
+		<div class="tcenter">
+			<div class="tleft">
+				<div class="logo"><img src="image/logo.png"></div>
+				<div class="sel">
+					<span class="nj">南京</span>
+					<span style="font-family:'iconfont';color:#ec6c00;">&#xe610;</span>
+					<div class="city"><a>南京</a><a>上海</a><a>北京</a></div>
+				</div>
+				<a href="" class="span1">首页</a>
+				<a href="" class="span1">爱租找房</a>
+				<a href="" class="span1">地图找房</a>
+				<a href="" class="span1">爱租金融</a>		
+			</div>
+			<div class="tright">
+				<span class="span2">用户登录</span>&nbsp;&nbsp;|
+				<span class="span2">公寓登录</span>&nbsp;&nbsp;|
+				<span class="span2 h" style="font-family:'iconfont'">&#xe601;</span>
+				<span class="span2">手机爱租</span>
+			</div>
+		</div>
+	</div>
+	<div class="ban">
+		<div class="bleft">
+			<div class="bl_top">账户管理</div>
+			<div class="bl_con1">
+				<div class="bl_link1">个人资料</div>
+				<div class="bl_link1">修改密码</div>
+				<div class="bl_link1">手机修改</div>
+			</div>
+			<div class="bl_cen">我的收藏</div>
+			<div class="bl_con2">
+				<div class="bl_link1">收藏房源</div>
+				<div class="bl_link1">找房条件</div>
+			</div>
+			<div class="bl_bot">我的发布</div>
+			<div class="bl_con3">
+				<div class="bl_link1">发布房源</div>
+				<div class="bl_link1">已发布房源</div>
+			</div>
+		</div>
+		<div class="bright">
+			<div class="br_top">基本信息</div>
+			<div class="names">
+				<div class="name">小区名称:&nbsp;</div>
+				<div class="inp1"><input type="text" placeholder="请输入小区名称"></div>
+				<div class="xqs">
+					<div class="xq">弓箭坊</div>
+					<div class="xq">弓箭坊40号</div>
+					<div class="xq">万科光明城市</div>
+					<div class="xq">紫金山庄</div>
+					<div class="xq">玄武湖</div>
+				</div>
+				<div class="hook1" style="font-family:'iconfont';color:#69b338;">&#xe669;</div>
+				<div class="wr1">小区名称不为空！</div>
+			</div>
+			<div class="names">
+				<div class="name">区属板块:&nbsp;</div>
+				<div class="inp21">
+					<input type="text" placeholder="区属">
+					<span class="qs" style="font-family:'iconfont'">&#xe610;</span>
+					<div class="qs_1"><div>鼓楼区</div><div>建邺区</div><div>江宁区</div></div>
+				</div>
+				<div class="inp22">
+					<input type="text" placeholder="板块">
+					<span class="qs" style="font-family:'iconfont'">&#xe610;</span>
+					<div class="qs_2"><div>三牌楼</div><div>和会街</div><div>虹桥</div></div>
+				</div>
+				<div class="hook2" style="font-family:'iconfont';color:#69b338;">&#xe669;</div>
+				<div class="wr2">区属或板块不为空！</div>
+			</div>
+			<div class="names1">
+				<div class="name">户型:&nbsp;</div>
+				<div class="inp3"><input type="number"></div>
+				<div class="span3">室</div>
+				<div class="inp3"><input type="number"></div>
+				<div class="span3">厅</div>
+				<div class="inp3"><input type="number"></div>
+				<div class="span3">卫</div>
+				<div class="inp3"><input type="number"></div>
+				<div class="span4">阳台</div>
+				<div class="hook4" style="font-family:'iconfont';color:#69b338;">&#xe669;</div>
+				<div class="wr5">必须为0以上整数！</div>
+			</div>
+			<div class="names">
+				<div class="name">出租形式:&nbsp;</div>
+				<div class="change">
+					<input type="radio" name="func">&nbsp;整租&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="func">&nbsp;合租
+				</div>
+				<div class="inp4">
+					<span>选择卧室内容</span>
+					<span class="qs" style="font-family:'iconfont'">&#xe610;</span>
+				</div>
+				<div class="inp4">
+					<span>选择限制条件</span>
+					<span class="qs" style="font-family:'iconfont'">&#xe610;</span>
+				</div>
+			</div>
+			<div class="names1">
+				<div class="name">面积:&nbsp;</div>
+				<div class="inp51">
+					<input type="text" placeholder="请输入面积">
+					<span>平方米</span>
+				</div>
+				<div class="hook5" style="font-family:'iconfont';color:#69b338;">&#xe669;</div>
+				<div class="wr6">面积不得小于0</div>
+			</div>
+			<div class="names1">
+				<div class="name">租金:&nbsp;</div>
+				<div class="inp52">
+					<input type="text" placeholder="请输入租金">
+					<span>元/月</span>
+				</div>
+				<div class="hook6" style="font-family:'iconfont';color:#69b338;">&#xe669;</div>
+				<div class="wr7">租金不得小于0</div>
+			</div>	
+			<div class="names">
+				<div class="name">付款方式:&nbsp;</div>
+				<div class="inp6">
+					<input type="checkbox" name="func1"><span class="f">月租</span>
+				</div>
+				<div class="inp6">
+					<input type="checkbox" name="func1"><span class="f">季付</span>
+				</div>
+				<div class="inp6">
+					<input type="checkbox" name="func1"><span class="f">半年付</span>
+				</div>
+				<div class="inp6">
+					<input type="checkbox" name="func1"><span class="f">年付</span>
+				</div>
+				<div class="inp6">
+					<input type="checkbox" name="func1"><span class="f">都可以</span>
+				</div>				
+			</div>
+			<div class="names">
+				<div class="name">手机号码:&nbsp;</div>
+				<div class="inp8"><input type="text" placeholder="请输入手机号码"></div>
+				<div class="hook3" style="font-family:'iconfont';color:#69b338;">&#xe669;</div>
+				<div class="wr4">格式错误！</div>
+				<div class="wr3">手机号不为空！</div>
+			</div>
+			<div class="names">
+				<div class="name">需求汇总:&nbsp;</div>
+				<div class="inp7"><textarea></textarea></div>
+			</div>
+			<div class="names3">
+				<div class="btn">提交</div>
+			</div>		
+		</div>
+	</div>
+</body>
+</html>
+<script src="jquery/jquery.min.js"></script>
+<script>
+$(function(){
+var uName,uChan1,uChan2;
+var zz1 = /[u4e00-u9fa5]/;
+$(".inp1 input").blur(function(){  //鼠标不在的时候
+		uName = $(this).val();
+		if(uName == ""){
+			$(".wr1").show();
+			$(".hook1").hide();
+		}else{
+			$(".hook1").show();
+			$(".wr1").hide();
+		}
+	})
+
+$(".inp21 input,.inp22 input").blur(function(){  //鼠标不在的时候
+		uChan1 = $(".inp21 input").val();
+		uChan2 = $(".inp22 input").val();
+		if(uChan1 == "" || uChan2 == ""){
+			$(".wr2").show();
+			$(".hook2").hide();
+		}else{
+			$(".hook2").show();
+			$(".wr2").hide();
+		}
+	})
+	
+$(".inp1 input").on("change",function(){
+	var val1 = $(this).val();
+	$(".inp7").html(val1);
+})
+
+var zz = /^1[34578]\d{9}$/; // 检测手机号
+var nums = '';	
+
+$(".inp8 input").blur(function(){
+	nums = $(".inp8 input").val();
+	if(nums == ''){
+		$(".wr4").hide();
+		$(".hook3").hide();
+		$(".wr3").show();
+	} else if(!zz.test(nums)){
+		$(".wr4").show();
+		$(".wr3").hide();
+		$(".hook3").hide();
+	} else{
+		$(".hook3").show();
+		$(".wr4").hide();
+		$(".wr3").hide();
+	}
+})	
+
+$(".inp1 input").keyup(function(){
+	$(".xqs").css({"display":"block"});
+	if($(".inp1 input").val().length <= 0){
+		$(".xq").css({"display":"none"});
+	}
+	for(var i = 0;i < 5;i ++){
+		if($(".xq").eq(i).text().substr(0, $(".inp1 input").val().length)  == $(".inp1 input").val()){
+			$(".xq").eq(i).css({"display":"block"});
+		}
+	}
+	$("body").click(function(){
+		$(".xqs").css({"display":"none"});
+	})
+})
+
+var zz2 =  /^[1-9]$/;
+var i3 = '';
+$(".inp3 input").blur(function(){
+	i3 = $(this).val();
+	if(i3 ==''){
+		$(".wr5").show();
+		$(".hook4").hide();
+	}else if(!zz2.test(i3)){
+		$(".wr5").show();
+		$(".hook4").hide();
+	}else{
+		$(".hook4").show();
+		$(".wr5").hide();
+	}
+})
+
+var zz3 =  /^[1-9]\d*$/;
+var i51 = '';
+$(".inp51 input").blur(function(){
+	i51 = $(this).val();
+	if(i51 ==''){
+		$(".wr6").show();
+		$(".hook5").hide();
+	}else if(!zz3.test(i51)){
+		$(".wr6").show();
+		$(".hook5").hide();
+	}else{
+		$(".hook5").show();
+		$(".wr6").hide();
+	}
+})
+
+var zz4 =  /^[1-9]\d*$/;
+var i52 = '';
+$(".inp52 input").blur(function(){
+	i52 = $(this).val();
+	if(i52 ==''){
+		$(".wr7").show();
+		$(".hook6").hide();
+	}else if(!zz4.test(i52)){
+		$(".wr7").show();
+		$(".hook6").hide();
+	}else{
+		$(".hook6").show();
+		$(".wr7").hide();
+	}
+})
+
+$(".inp6 input").click(function(){
+	if($(this).attr("checked") == "checked"){
+		$(this).siblings(".inp6 input").attr("checked",false);
+	}
+})
+	
+})
+</script>
